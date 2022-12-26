@@ -1,0 +1,5 @@
+package com.hyungmok.springboot.cruddemo.dao;
+
+public interface EmployeeDAO {
+
+}

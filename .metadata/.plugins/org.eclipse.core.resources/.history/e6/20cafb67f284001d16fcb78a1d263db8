@@ -1,0 +1,10 @@
+package com.hyungmok.springboot.cruddemo.entity;
+
+
+
+
+@Entity
+@Table(name="employee")
+public class Employee {
+
+}

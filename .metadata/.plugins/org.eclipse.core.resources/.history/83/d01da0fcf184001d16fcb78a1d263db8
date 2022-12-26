@@ -1,0 +1,5 @@
+package com.hyungmok.springboot.cruddemo.entity;
+
+public class Employee {
+
+}
