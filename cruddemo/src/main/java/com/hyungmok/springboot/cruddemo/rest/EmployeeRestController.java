@@ -13,6 +13,7 @@ import com.hyungmok.springboot.cruddemo.entity.Employee;
 @RestController
 @RequestMapping("/api")
 public class EmployeeRestController {
+	
 	private EmployeeDAO employeeDAO;
 	
 	@Autowired
@@ -24,4 +25,5 @@ public class EmployeeRestController {
 	public List<Employee> findAll() {
 		return employeeDAO.findAll();
 	}
+	
 }
